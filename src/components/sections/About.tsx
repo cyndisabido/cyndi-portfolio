@@ -21,26 +21,14 @@ export function About() {
           </div>
 
           <aside className="space-y-4">
-            <div className="overflow-hidden rounded-2xl border border-border bg-surface shadow-sm lg:hidden">
-              <div className="relative aspect-[4/3]">
-                <Image
-                  src={profile.profileImage}
-                  alt={`${profile.name} — professional headshot`}
-                  fill
-                  className="object-cover object-top"
-                  sizes="(max-width: 1024px) 100vw, 400px"
-                />
-              </div>
-            </div>
-
             <div className="rounded-2xl border border-border bg-surface p-6 shadow-sm">
               <div className="mb-3 flex items-center gap-2 text-primary dark:text-secondary">
                 <Sparkles className="h-5 w-5" />
                 <h3 className="font-semibold text-text">What I focus on</h3>
               </div>
               <ul className="space-y-2.5 text-sm text-muted">
-                <li>Feature Template Engine & LLM-powered Template Store</li>
-                <li>End-to-end ML: GLP-1 utilization & opioid risk models</li>
+                <li>Feature Template Store (Backend + UI/AI Product Development)</li>
+                <li>End-to-end Machine Learning Solutions</li>
                 <li>AI enablement demos and guided workflows</li>
                 <li>Healthcare analytics & operational reporting</li>
                 <li>Translating between engineers and business partners</li>
